@@ -1,0 +1,31 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0rem 1rem 0rem;
+
+  input {
+    font-size: 2rem;
+    padding: 0.25rem;
+    border: 3px solid #ddbfa4;
+    border-radius: 20px 0 0 20px;
+    text-indent: 1rem;
+    font-family: "Gill Sans", sans-serif;
+  }
+  button {
+    font-size: 2rem;
+    padding: 0.25rem;
+    border: 3px solid #ddbfa4;
+    border-radius: 0 20px 20px 0;
+    background-color: #ddbfa4;
+    cursor: pointer;
+    font-family: "Gill Sans", sans-serif;
+  }
+}
+.reminder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0 6rem 0;
+}
+.morePicture button {
+  padding: 0.5rem 0.75rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #ddbfa4;
+  cursor: pointer;
+  font-family: "Gill Sans", sans-serif;
+}
+
+nav {
+  background-color: #ddbfa4;
+  height: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 6px -6px #bfbebe;
+}
+nav h1 {
+  margin-left: 3rem;
+  padding: 0.8rem;
+  font-size: 2rem;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+nav ul li {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+}
+nav ul li a {
+  font-size: 1.6rem;
+}
+nav ul li a:hover {
+  color: brown;
+  border-bottom: 3px solid brown;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0rem 1rem 0rem;
+}
+.search input {
+  font-size: 2rem;
+  padding: 0.25rem;
+  border: 3px solid #ddbfa4;
+  border-radius: 20px 0 0 20px;
+  text-indent: 1rem;
+  font-family: "Gill Sans", sans-serif;
+}
+.search button {
+  font-size: 2rem;
+  padding: 0.25rem;
+  border: 3px solid #ddbfa4;
+  border-radius: 0 20px 20px 0;
+  background-color: #ddbfa4;
+  cursor: pointer;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.reminder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  background-color: #ddbfa4;
+  min-height: 8vh;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pictures .picture {
+  padding: 1rem;
+  width: 400px;
+}
+.pictures .picture .imageContainer {
+  overflow: hidden;
+  height: 40vh;
+  position: relative;
+  cursor: pointer;
+}
+.pictures .picture .imageContainer .photographer {
+  color: white;
+  position: absolute;
+  bottom: 2%;
+  right: 3%;
+}
+.pictures .picture .imageContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s ease;
+}
+.pictures .picture .imageContainer img:hover {
+  transform: scale(1.25);
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+}
+.homeContainer h1 {
+  padding: 2rem;
+  font-size: 2.5rem;
+}
+.homeContainer img {
+  height: 35vh;
+}
+.homeContainer h3 {
+  padding: 2rem;
+  font-size: 2rem;
+}/*# sourceMappingURL=style.css.map */

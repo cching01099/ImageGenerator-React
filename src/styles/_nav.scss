@@ -1,0 +1,32 @@
+nav {
+  background-color: #ddbfa4;
+  height: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 6px -6px #bfbebe;
+
+  h1 {
+    margin-left: 3rem;
+    padding: 0.8rem;
+    font-size: 2rem;
+  }
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    li {
+      display: flex;
+      align-items: center;
+      padding: 0.8rem;
+      a {
+        font-size: 1.6rem;
+        &:hover {
+          color: brown;
+          border-bottom: 3px solid brown;
+        }
+      }
+    }
+  }
+}

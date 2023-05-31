@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0 6rem 0;
+
+  button {
+    padding: 0.5rem 0.75rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 20px;
+    background-color: #ddbfa4;
+    cursor: pointer;
+    font-family: "Gill Sans", sans-serif;
+  }
+}
+
+@import "./nav";
+@import "./search";
+@import "./footer";
+@import "./picture";
+@import "./home";
