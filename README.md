@@ -1,6 +1,6 @@
 # Image Generator 🎞️
 
-動態畫面（僅呈現串接 Pexels's API 圖片的產生器功能，其餘網站 API 的串接及功能呈現，請下載本專案進行操作。）
+動態畫面(僅呈現串接 Pexels's API 圖片的產生器功能，其餘網站 API 的串接及功能，請下載本專案進行操作。)
 ![Index page about Image Generator](./public/screenrecord_shortcut.gif)
 
 ## 📌 專案目的
