@@ -7,10 +7,11 @@ import UnsplashPage from "./pages/UnsplashPage";
 import PixabayPage from "./pages/PixabayPage";
 import Page404 from "./pages/Page404";
 import "./styles/style.css";
+const basename = process.env.PUBLIC_URL;
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />}></Route>
