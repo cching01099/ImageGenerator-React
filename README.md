@@ -29,7 +29,7 @@
 2. 在本地開啟之後，透過終端機進入資料夾，輸入：
 
 ```bash
-cd ImageGenerator-React
+ cd ImageGenerator-React
 ```
 
 3. 安裝所需套件，輸入：
