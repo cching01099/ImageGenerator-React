@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ImageGenerator-React/static/css/main.3e1f1c6f.css",
+    "main.js": "/ImageGenerator-React/static/js/main.de44f3ef.js",
+    "static/media/home_meme.jpg": "/ImageGenerator-React/static/media/home_meme.a653344fdd49759f4f8a.jpg",
+    "index.html": "/ImageGenerator-React/index.html",
+    "main.3e1f1c6f.css.map": "/ImageGenerator-React/static/css/main.3e1f1c6f.css.map",
+    "main.de44f3ef.js.map": "/ImageGenerator-React/static/js/main.de44f3ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e1f1c6f.css",
+    "static/js/main.de44f3ef.js"
+  ]
+}
